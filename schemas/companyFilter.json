@@ -1,0 +1,59 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "name"
+    ],
+    "properties": {
+        "handle": {
+            "type": "string",
+            "default": "",
+            "title": "The handle Schema",
+            "examples": [
+                "erickson-inc"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Erickson Inc"
+            ]
+        },
+        "description": {
+            "type": "string",
+            "default": "",
+            "title": "The description Schema",
+            "examples": [
+                "Interesting environment owner beautiful school politics. General friend hair player dinner last administration teacher."
+            ]
+        },
+        "numEmployees": {
+            "type": "integer",
+            "default": 0,
+            "title": "The numEmployees Schema",
+            "examples": [
+                267
+            ]
+        },
+        "logoUrl": {
+            "type": "string",
+            "default": "",
+            "title": "The logoUrl Schema",
+            "examples": [
+                "/logos/logo4.png"
+            ]
+        }
+    },
+    "examples": [{
+        "handle": "erickson-inc",
+        "name": "Erickson Inc",
+        "description": "Interesting environment owner beautiful school politics. General friend hair player dinner last administration teacher.",
+        "numEmployees": 267,
+        "logoUrl": "/logos/logo4.png"
+    }]
+}
